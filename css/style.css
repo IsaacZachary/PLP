@@ -545,18 +545,17 @@ li{
     color: #fff;
     font-size: 1.3em;
 }
-.fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
+.icon {
+     margin-right: 20px;
+    font-size: 28px;
+    color: #002;
+}
+.social-item {
     margin-right: 50px;
     font-size: 32px;
-    color: rgb(255 255 0);
-}
+    color: rgb(255 255 0); 
+}   
+
 
 @keyframes hamburger_puls{
     0%{

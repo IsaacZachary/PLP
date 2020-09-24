@@ -589,8 +589,7 @@ li{
     /*Tablet Services*/ 
     #services .service-top p{
         flex-basis: 40%;
-        max-width: 200px;
-        width: 100px;
+       
     }
     #services .service-bottom .service-item{
         flex-basis: 40%;

@@ -17,10 +17,14 @@ p{
     text-align: left;
     font-size: 1.2rem;
     line-height:1.9em ;
+    font-family: 'Peddana', serif;
 }
 img{
     height: 220px;
     width: 200px;
+}
+a:active{
+    text-decoration-color:none ;
 }
 .section-title{
     font-size: 4em;
@@ -89,6 +93,12 @@ li{
     overflow: hidden;
     z-index: 1;
     transition: .5s ease left;
+}
+#header .nav-list ul .profile{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(41, 41, 131);
+    border-radius: 50%;
 }
 #header .nav-list ul a{
     font-size: 1.4rem;
@@ -260,7 +270,25 @@ li{
     color: #ddd;
     background-color: rgba(171, 173, 2, 0.993);
 }
-
+.ctd{
+    display: inline-block;
+    padding: 4px 8px;
+    color:rgb(5, 5, 167) ;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgb(5, 5, 167) ;
+    border-radius: 8px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    margin-top: 28px;
+    transition: 2s ease ;
+    transition-property: background-color, color;
+}
+.ctd:hover{
+    color: #ddd;
+    background-color: rgba(171, 173, 2, 0.993);
+}
 #services .service{
     text-align: center;
     max-width: 1500px;
@@ -458,8 +486,31 @@ li{
     z-index: -1;
 }
 /*sliide show*/
-.myslides{
+#slide{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    margin-top:0;
+    line-height: 3.0rem;
+    margin-bottom: 50px;
+}
+#slide h1{
+    color:rgb(207, 211, 4, 0.99);
+    box-shadow:  0 20px 20px  rgb(207, 211, 4, 0.99);
+    font-size: 2.0rem;
+}
+#slide .myslides{
     display: none;
+    border-radius: 15%;
+    width: 300px;
+    height: 300px;
+    box-shadow:  0 20px 20px  rgb(207, 211, 4, 0.99);
+    align-items: center;
+    
 }
 
 /*contact*/
@@ -491,21 +542,41 @@ li{
 #contact .contact-item:hover{
     box-shadow: 0 0 5px 0 #002;
 }
-#contact .contact-item img{
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-    margin-bottom: 8px;
-}
+
 #contact .contact-item .contact-info h1{
    font-size: 2.0rem;
    font-weight: 600;
    margin-bottom: 8px;
 }
-#contact .contact-info h2{
+#contact .contact-info h2 {
     font-size: 1.2rem;
     line-height: 2rem;
     font-weight: 500;
+    text-decoration: none;
+    color: #1a59e0;
+    cursor: pointer;
+}
+#contact .contact-item .p-icon{
+    color: #0a348d;
+    font-size: 35px;
+}
+#contact .contact-item .e-icon{
+    color: rgb(196, 54, 54);
+    font-size: 35px;
+}
+#contact .contact-info h2 a{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1a59e0;
+}
+#contact .contact-info h2 a:active{
+    text-decoration: none;
+}
+#contact .contact-item .w-icon{
+    color:#188a26;
+    font-size: 35px;
 }
 /*Footer*/
 #footer{
@@ -529,6 +600,25 @@ li{
     display: flex;
     margin-bottom: 8px;
 }
+#footer .social-icon .social-item .fab{
+    color: rgba(207, 211, 4, 0.993);
+}
+#footer .social-icon .social-item .fab:hover{
+    transform: scale(1.2);
+}
+#footer .social-icon .social-item:nth-child(1) .fab:hover{
+    color: #0a348d;
+}
+#footer .social-icon .social-item:nth-child(2) .fab:hover{
+    color: #8b283a;
+}
+#footer .social-icon .social-item:nth-child(3) .fab:hover{
+    color: #b11a1a;
+}
+#footer .social-icon .social-item:nth-child(4) .fab:hover{
+    color: #ffffff;
+}
+
 #footer .social-item img{
     width: 40px;
     height: 35px;

@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-size: 10px;
+   
     font-family: tahoma;
     background-color: #ddd;
     font-size:16px;
@@ -17,8 +17,11 @@ p{
     color: #001;
     text-align: left;
     font-size: 1.2rem;
+    font-size:16px;
     line-height:1.9em ;
     font-family: 'Peddana', serif;
+    font-size:16px;
+
 }
 img{
     height: 220px;

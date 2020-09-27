@@ -94,12 +94,24 @@ li{
     z-index: 1;
     transition: .5s ease left;
 }
-#header .nav-list ul .profile{
-    width: 80px;
-    height: 80px;
+
+#header .nav-list ul .profile2{
+    width: 40px;
+    height: 38px;
     border: 2px solid rgb(41, 41, 131);
     border-radius: 50%;
+    position: relative; 
 }
+#header .nav-list ul .profile{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(41, 41, 131);
+    border-radius: 50%;
+    position: relative;
+    display: none;
+    
+}
+
 #header .nav-list ul a{
     font-size: 1.4rem;
     font-weight: 600;
@@ -672,13 +684,25 @@ li{
     }
 }
 /*Tablet Media Query*/
-@media only screen and (min-width:700px){
+@media only screen and (min-width:780px){
     .ctn{
         font-size: 2.3rem;
         padding: 18px 54px;
     }
     h1 .section-title{
         font-size: 5.5rem;
+    }
+    #header .nav-list ul .profile{
+        width: 80px;
+        height: 80px;
+        border: 2px solid rgb(41, 41, 131);
+        border-radius: 50%;
+        position: relative;
+        display: block;
+        
+    }
+    #header .nav-list ul .profile2{
+        display: none;
     }
     /*Tablet Hero*/
     #hero .span{

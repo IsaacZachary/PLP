@@ -7,21 +7,17 @@ html{
     scroll-behavior: smooth;
 }
 body{
-   
+    font-size: 10px;
     font-family: tahoma;
     background-color: #ddd;
-    font-size:10px;
    
 }
 p{
     color: #001;
     text-align: left;
-    font-size: 1.2rem;
-    font-size:16px;
+    font-size: 1.6rem;
     line-height:1.9em ;
-    font-family: 'Peddan', serif;
-    
-
+    font-family: 'Peddana', serif;
 }
 img{
     height: 220px;
@@ -313,7 +309,6 @@ li{
     color: rgba(171, 173, 2, 0.993);
 }
 #services .service-top p{
-    font-size: 1.4em;
     margin-top: 5px;
     line-height: 2.2rem;
     font-weight: 300;

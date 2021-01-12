@@ -15,9 +15,8 @@ body{
 p{
     color: #001;
     text-align: left;
-    font-size: 1.6rem;
-    line-height:1.9em ;
-    font-family: 'Peddana', serif;
+    font-size: 1.3rem;
+    line-height:1.5em ;
 }
 img{
     height: 220px;
@@ -29,7 +28,7 @@ a:active{
 .section-title{
     font-size: 4em;
     font-weight: 500;
-    color: rgb(25, 59, 109);
+    color: #002;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -98,14 +97,14 @@ li{
 #header .nav-list ul .profile2{
     width: 40px;
     height: 38px;
-    border: 2px solid rgb(41, 41, 131);
+    color: #002;
     border-radius: 50%;
     position: relative; 
 }
 #header .nav-list ul .profile{
     width: 30px;
     height: 30px;
-    border: 2px solid rgb(41, 41, 131);
+    color: #002;
     border-radius: 50%;
     position: relative;
     display: none;
@@ -285,10 +284,10 @@ li{
 .ctd{
     display: inline-block;
     padding: 4px 8px;
-    color:rgb(5, 5, 167) ;
+    color: #002;
     text-decoration: none;
     background-color: transparent;
-    border: 2px solid rgb(5, 5, 167) ;
+    border: 2px solid #002 ;
     border-radius: 8px;
     font-size: 1.4em;
     text-transform: uppercase;
@@ -305,10 +304,8 @@ li{
     text-align: center;
     max-width: 1500px;
     margin: auto;
-    padding: 80px 0px;
 }
 #services .service-top{
-    max-width: 600px;
     margin: 0 auto  ;
 }
 .service-item .icon img{
@@ -371,7 +368,7 @@ li{
     text-transform: uppercase;
     font-size: 2.4em;
     padding: 0 8px;
-    color: teal;
+    color: rgba(171, 173, 2, 0.993);
     line-height: 2.0rem;
 }
 /*Project Section*/
@@ -403,7 +400,7 @@ li{
 #projects .project-info{
     padding: 30px;
     flex-basis: 50%;
-    background-image:linear-gradient(60deg,rgb(52, 107, 209) 0%,rgb(3, 3, 61) 100%);
+    background-image:linear-gradient(60deg, #002 0%,#003 100%);
     height: 100%;
     display: flex;
     align-items: flex-start;
@@ -504,7 +501,6 @@ li{
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 20px;
     margin-top:0;
     line-height: 3.0rem;
     margin-bottom: 50px;
@@ -564,15 +560,15 @@ li{
     line-height: 2rem;
     font-weight: 500;
     text-decoration: none;
-    color: #1a59e0;
+    color: #002;
     cursor: pointer;
 }
 #contact .contact-item .p-icon{
-    color: #0a348d;
+    color: #002;
     font-size: 35px;
 }
 #contact .contact-item .e-icon{
-    color: rgb(196, 54, 54);
+    color: #002;
     font-size: 35px;
 }
 #contact .contact-info h2 a{
@@ -580,13 +576,13 @@ li{
     line-height: 2rem;
     font-weight: 500;
     text-decoration: none;
-    color: #1a59e0;
+    color: #002;
 }
 #contact .contact-info h2 a:active{
     text-decoration: none;
 }
 #contact .contact-item .w-icon{
-    color:#188a26;
+    color: #002;
     font-size: 35px;
 }
 /*Footer*/

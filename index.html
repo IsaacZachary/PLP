@@ -1,266 +1,382 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isaac Zachary Portfolio</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Peddana&display=swap">
-
-</head>
-<body>
-    <section id="header">
-        <div class="header container">
-            <div class="nav-bar">
-                <div class="brand">
-                    <a href="#hero"> <h1><span>I</span>SAAC<span>Z</span>ACHARY</h1></a>
-                </div>
-              
-                <div class="nav-list">
-                    <div class="hamburger"><div class="bar"></div></div>
-                    <ul>
-                        <li><a href="#hero" data.after="Home">Home</a></li>
-                        <li><a href="#services" data.after="Services">Gallery</a></li>
-                        <li><a href="#projects" data.after="Projects">Projects</a></li>
-                        <li><a href="#about" data.after="About">About</a></li>
-                        <li><a href="#contact" data.after="Contacts">Contacts</a></li>
-                        <li><img class="profile2" src="images/Face.jpg" alt="Prof"></li>
-                    </ul>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">John Doe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-    </section>
-    <section id="hero">
-        <div class="hero-container">
-            <div>
-
-                <h1 class="span">Feel very welcomed to my website</h1>
-                <h1 class="span">hope you'll get help </h1>
-                <h1 class="name">and give a thumbs up</h1>
-                <a href="pdf/My CV.pdf" type="button" class="ctn">Portfolio</a>
-            </div>
-             </div>
-    </section>
-    
-    <section id="services">
-            <div class="service container">
-                <div class="service-top">
-                    <h1 class="section-title">Assured <span class="name">Services</span></h1>
-                    <p> 
-                    I am well equiped with essential fundamental skills in web development from coming up with a web blueprint, design and working with code to come up with the 
-                    actual webpages. I have an understanding in wordpress plug-ins hence if in need of a wordpress website you are assured to get one just according to your preferences.
-                    In addition to web development I also have a skill in system's installation, customization, troubleshooting and database management with an understanding in Microsoft
-                    Office applications, Java, Visual Basic, C and MySQL.
-                     </p>
-                </div>
-
-                <div class="service-bottom">
-                    <div class="service-item">
-                            <h2>Web Development</h2>
-                            <p>
-                                I am able to come up with websites using wordpress plug-ins and hosting, working with github pages for static websites and hosting them for free although Its
-                                not recomended for comercial websites as one cannot acess the website without knowing the actual domain name for your website, developing webpages locally from my pc
-                                using HTML styling it with CSS and deploying them on other platforms or even hosting them from my pc using XAMPP software and other frameworks
-                                
-                            </p>
-                        </div>
-
-                        <div class="service-item">
-                                <h2>Database Management</h2>
-                                <p>
-                                   I'm capable of working with databases, coming up with queries and records in Microsoft Access as well as dealing with these databases in MySQL 
-                                   monitoring any changes to the databses ensuring the information in the databses is encrypted and no unauthorised user can temper with the system
-                                   without the system giving an alert to the database adminstrators.
-                                    
-                                </p>
-                            </div>
-
-                            <div class="service-item">
-                                    <h2>System Installation</h2>
-                                    <p>
-                                      I can aid in installation of new systems to an organization, instution or even homes. Customizing the system as per the user's requirements
-                                      and help in trouble shooting incase of any errors in the system. Telecommunication systems are even more assured from my previous engagement 
-                                      with telecomunication experts in handling security camera systems, electric fences and automating appliances like gates using remote controllers 
-                                    </p>
-                                </div>
-                </div>
-            </div>
-    </section>
-    
-    <section id="projects">
-        <div class="project container">
-            <div class="project-title">
-                <h1 class="section-title">Recent projects</h1>
-
-                </div>
-                <div class="project-content">
-                    <div class="project-item" >
-                        <div class="project-info">
-                            <h1>First Project</h1>
-                            <h2>MYAIR SOFTWARE DEVELOMENT COMPANY</h2>
-                            <p>
-                               I have made a website for this thought already. its a software company that will enable users
-                               create a good and modern website, business application, personal portfolios, games and many modern 
-                               more as required by a client
-                            </p>
-                             
-                       <a href="isaaczachary.github.io/myairportfolio/" type="button" class="ctd">VISIT</a>
-                        </div>
-                       
-                    </div>
-                    <div class="project-item" >
-                        <div class="project-info">
-                            <h1>Second Project</h1>
-                            <h2>Facebook Clone</h2>
-                            <p>
-                               This is a website homepage that resembles the original facebook desktop homepage which I built From 
-                               scratch just to test on my html and css skills and if I can really do something with my own code 
-                               using an existing idea
-                            </p>
-                              <a href="isaaczachary.github.io/facebookclone/" type="button" class="ctd">VISIT</a>
-                        </div>
-                       
-                    </div>
-                    <div class="project-item" >
-                        <div class="project-info">
-                            <h1>Third Project</h1>
-                            <h2>My Portfolio</h2>
-                            <p>
-                               My portfolio is one of my biggest projects that I think about day in day out. I try my level best 
-                               to ensure its unique from any existing websites. This is really meant to explain briefly who I am
-                               , what I can do and what i have done.
-                            </p>
-                              <a href="isaaczachary.github.io/portfolio/" type="button" class="ctd">VISIT</a>
-                        </div>
-                       
-                    </div>
-           <div class="project-item" >
-                        <div class="project-info">
-                            <h1>Fourth Project</h1>
-                            <h2>JAK ALL-TIME TECH</h2>
-                            <p>
-                               JAK is a start-up business located in Umoja II Nairobi. 
-                               The company specializes in offering cyber services, 
-                               selling and repair of phone mobiles, computer and home electronics. 
-                               We also offer software solutions in various fields including security, e-commerce and many more
-                            </p>
-                              <a href="" type="button" class="ctd">VISIT</a>
-                        </div>
-                       
-                    </div>
-                </div>
-
-            </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
-
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
     </section>
-
-    <!-- About -->
     <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-image">
-                    <img src="images/You.JPG" alt="">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
                 </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
             </div>
-            <div class="col-right">
-                <h1 class="section-title">About Me</h1>
-                <h2>Software Developer</h2>
-                <p>
-                   I’m passionate in software development with essential skills in web design, database management systems, system’ installation, customization and troubleshooting.
-                   I’m always ready to learn new skills to fit in a broader career path with minimal or no supervision and dedication to serve. 
-                   I have learnt to be self-dependent in personal projects and be an active team player in group projects. I believe that I’m in a capacity,
-                   to add value to your organization’s workforce and aid in meeting its goals
-                </p>
-
-                <a href="pdf/Resume.pdf" type="button" class="ctn">Resume</a>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
             </div>
+          </div>
         </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
     </section>
-    
-    <section id="slide">
-        <div>
-            <h1>SLIDESHOW</h1>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
         </div>
-        <img src="images/img1.JPG" alt="" class="myslides">
-        <img src="images/img2.JPG" alt="" class="myslides">
-        <img src="images/img3.JPG" alt="" class="myslides">
-        <img src="images/img4.JPG" alt="" class="myslides">
-        <img src="images/img5.JPG" alt="" class="myslides">
-        <img src="images/img6.JPG" alt="" class="myslides">
-      
-
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
     </section>
-    <!--Contact -->
     <section id="contact">
-        <div class="contact container">
-            <div><h1 class="section-title">Contact Me</h1></div>
-        <div class="contact-items">
-            <div class="contact-item">
-                <div class="p-icon">
-                    <i class="fas fa-phone-volume"></i>
-                 </div>
-                <div class="contact-info">
-                    <h1>Phone</h1>
-                    <h2>+254759325915 </h2>
-                    <h2>+254759325920</h2>
-                </div>
-            </div>
-        
-            <div class="contact-item">
-                <div class="e-icon"><i class="fas fa-envelope-square"></i></div>
-                <div class="contact-info">
-                    <h1>Mail</h1>
-                    <h2><a href="mailto:isaaczachary18@gmail.com?Subject=Feedback&body = I'm%20intrested..." target="_top"></a>Isaac Zachary</h2>
-                    <h2><a href="mailto: softdevs19@gmail.com?Subject=Feedback&body = I'm%20intrested..."></a>My Company</h2>
-                </div>
-            </div>
-      
-            <div class="contact-item">
-               
-                <div class="w-icon"><i class="fab fa-whatsapp"></i></div>
-                <div class="contact-info">
-                    <h1>Social</h1>
-                    <h2>
-                         <a href="https://api.whatsapp.com/send?phone=254759325915&amp;text=Hi Isaac i'm intrested:)">
-                         WhatsApp</a>
-                    </h2>
-                    <h2>
-                        <a href=“https://telegram.me/Aizooh/“>
-                     Telegram</a>
-                    </h2>
-                </div>
-            </div>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
         </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
         </div>
+      </div>
     </section>
-
-    <!--Footer-->
-    <section id="footer">
-        <div class="footer container">
-            <div class="brand">
-                <h1><span>I</span>SAAC<span>Z</span>ACHARY</h1>
-            </div>
-            <h2>The Software Developer <br> you've been looking for</h2>
-            <div class="social-icon">
-                <div class="social-item">
-                    <a href="https://m.facebook.com/AizoohZachary/?_rdr"><i class="fab fa-facebook"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://www.instagram.com/aizooh_zachary/"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://www.quora.com/profile/Isaac-Zachary-6"><i class="fab fa-quora"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://github.com/IsaacZachary"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-            <p> Copyright © 2021 Isaac Zachary Siko, Al rights reserved</p>
-            <i class="fab fa-amazon"></i>
-            <i class="fa fa-hand-o-down" aria-hidden="true"></i>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </section>
-    <script src="js/motion.js "></script>
-</body>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

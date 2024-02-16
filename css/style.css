@@ -494,6 +494,17 @@ li{
     border: 7px solid rgba(207, 211, 4, 0.993);
     z-index: -1;
 }
+/*experience-section*/
+  #experience {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh; /* Adjust height as needed */
+  }
+
+  .details-container {
+    scroll-snap-align: start;
+  }
+
 /*sliide show*/
 #slide{
     display: flex;

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .image-container {
+            display: inline-block;
+            margin-right: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center; /* Center the images */
+        }
+        .image-container img {
+            width: 100%; /* Ensures images fill container */
+            height: auto; /* Prevents distortion */
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            display: block; /* Centers the image horizontally */
+        }
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+        .text {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="section" id="home">
+            <h2>Welcome to our Website!</h2>
+            <p>This website showcases various images related to technology, nature, and food. Explore the sections below to find more information.</p>
+            <div class="image-container">
+                <a href="https://www.example.com/technology">
+                    <img src="https://www.skillstork.org/blog/wp-content/uploads/2022/11/modern-education-Skillstork-1568x882.jpg" alt="Technology Image">
+                </a>
+                <div class="text">
+                    <p>This image represents the modern education system with the integration of technology.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="gallery">
+            <h2>Nature Gallery</h2>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/nature1">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/XP/SL/YM/103578143/3d-nature-wallpaper-500x500.jpeg" alt="Nature Image 1">
+                </a>
+                <div class="text">
+                    <p>This beautiful nature wallpaper showcases the wonders of 3D technology in capturing scenic landscapes.</p>
+                </div>
+            </div>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/nature2">
+                    <img src="https://png.pngtree.com/background/20230512/original/pngtree-nature-background-sunset-wallpaer-with-beautiful-flower-farms-picture-image_2503007.jpg" alt="Nature Image 2">
+                </a>
+                <div class="text">
+                    <p>The serene sunset view over flower farms highlights the beauty and tranquility of nature.</p>
+                </div>
+            </div>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/nature3">
+                    <img src="https://www.treehugger.com/thmb/Y5reVpe2tn68Wqn4YQrO_e5vJQ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2018__06__nature-phpoto-day-squirrel-6b50719b524c4ecbb3152a32baa38367.jpg" alt="Nature Image 3">
+                </a>
+                <div class="text">
+                    <p>A playful squirrel enjoying a sunny day amidst nature's beauty.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="menu">
+            <h2>Food Menu</h2>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/food1">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-981ceae310b1cf68e367f110ae991ff0-lq" alt="Food Image 1">
+                </a>
+                <div class="text">
+                    <p>Delight your taste buds with this mouth-watering pizza topped with fresh ingredients.</p>
+                </div>
+            </div>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/food2">
+                    <img src="https://www.discoverwalks.com/blog/wp-content/uploads/2019/08/chicken-biryani.jpg" alt="Food Image 2">
+                </a>
+                <div class="text">
+                    <p>Experience the rich flavors of traditional Indian cuisine with aromatic chicken biryani.</p>
+                </div>
+            </div>
+            <div class="image-container" style="width: 300px; height: 200px;">
+                <a href="https://www.example.com/food3">
+                    <img src="https://keeshaskitchen.com/wp-content/uploads/2022/12/East-African-Chapati-With-Beef-Stew..jpg" alt="Food Image 3">
+                </a>
+                <div class="text">
+                    <p>Savor the taste of East African cuisine with delicious chapati served with beef stew.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

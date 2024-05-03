@@ -1,4 +1,3 @@
-=======
 # A Developer Portfolio 
 ![PLP](https://github.com/IsaacZachary/Support_Company_Website/blob/master/assets/img/plp.png)
 
@@ -69,4 +68,3 @@ I would like to express my deepest gratitude for being selected as one of the st
 ---
 
 Remember, learning is a journey, and I'm excited to continue this journey alongside you all! Let's keep building and creating amazing things together. #MillionDevsAfrica 🚀
->>>>>>> master

@@ -1,5 +1,3 @@
-# PLP
-Power Learn Project Assignments
 =======
 # A Developer Portfolio 
 ![PLP](https://github.com/IsaacZachary/Support_Company_Website/blob/master/assets/img/plp.png)
